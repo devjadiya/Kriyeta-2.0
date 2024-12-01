@@ -78,10 +78,9 @@ function Header({ user, onLogoutClick, toggleSidebar }) {
           className="flex items-center space-x-3 rtl:space-x-reverse"
           onClick={toggleSidebar}
         >
-          <img src={logo} className="h-12 mt-[-15px]" alt="Logo" />
           <div className="mt-3">
             <span className="self-center text-[20px] font-semibold whitespace-nowrap dark:text-white">
-              EduNova
+              Gurukul
             </span>
             <br />
             <span className="text-[12px]">Student Dashboard</span>
@@ -101,7 +100,7 @@ function Header({ user, onLogoutClick, toggleSidebar }) {
           </button>
 
           <FaBell className="cursor-pointer text-2xl hover:text-gray-500  dark:hover:text-gray-300 transition-colors" />
-         
+
           <div className="relative" ref={userDetailsRef}>
             <button
               type="button"
@@ -121,7 +120,6 @@ function Header({ user, onLogoutClick, toggleSidebar }) {
               <div className="absolute right-[-47px] mt-2 w-96 bg-white dark:bg-gray-800 rounded-lg shadow-lg py-1 z-20">
                 <div className="px-4 py-3 mt-5 ml-4">
                   <div className="flex">
-                    
                     <div className="ml-4">
                       <span className="block text-gray-900 dark:text-white text-xl">
                         {`${user.user.first_name} ${user.user.last_name}`}
@@ -143,17 +141,17 @@ function Header({ user, onLogoutClick, toggleSidebar }) {
                         + Classroom
                       </button>
                       <button
-            type="button"
-            className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
-            onClick={handleThemeMode}
-          >
-            {themeMode === "dark" ? (
-              <span className="text-2xl">🌙</span>
-            ) : (
-              <span className="text-2xl">☀️</span>
-            )}
-          </button>
-                      
+                        type="button"
+                        className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
+                        onClick={handleThemeMode}
+                      >
+                        {themeMode === "dark" ? (
+                          <span className="text-2xl">🌙</span>
+                        ) : (
+                          <span className="text-2xl">☀️</span>
+                        )}
+                      </button>
+
                       <span className="block text-sm text-gray-500 truncate dark:text-gray-400">
                         {user.user.phone}
                       </span>
@@ -200,17 +198,15 @@ function Header({ user, onLogoutClick, toggleSidebar }) {
                   Help
                 </a>
                 <button
-                        className="block w-full text-left px-4 py-2 text-sm text-red-500 hover:bg-red dark:hover:red-500"
-                        onClick={handleLogout}
-                      >
-                        Logout
-                      </button>
+                  className="block w-full text-left px-4 py-2 text-sm text-red-500 hover:bg-red dark:hover:red-500"
+                  onClick={handleLogout}
+                >
+                  Logout
+                </button>
                 <div className="border-t border-gray-200 dark:border-gray-700 my-1"></div>
               </div>
             )}
           </div>
-
-         
         </div>
       </div>
     </nav>
