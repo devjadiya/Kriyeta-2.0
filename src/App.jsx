@@ -13,7 +13,6 @@ import Benefits from './components/Benefits';
 import Collaboration from './components/Collaboration';
 import Services from './components/Services';
 import Pricing from './components/Pricing';
-import Roadmap from './components/Roadmap';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import ButtonGradient from "./assets/svg/ButtonGradient";
@@ -40,7 +39,6 @@ const App = () => {
             <Collaboration />
             <Services />
             <Pricing />
-            <Roadmap />
           </>
         } />
         <Route path="/Blogs" element={<Blogs />} />

@@ -9,7 +9,7 @@ import info from '../../../assets/images/information.png';
 import { IonIcon } from '@ionic/react';
 import { homeOutline, schoolOutline, newspaperOutline, logOutOutline, settingsOutline } from 'ionicons/icons';
 
-export const Sidebar = forwardRef(({ onDashboardClick, onClassroomClick, onBlogsClick, onQuizClick, isOpen, toggleSidebar, user, onLogoutClick }, ref) => {
+export const Sidebar = forwardRef(({ onDashboardClick, onClassroomClick, onBlogsClick, onQuizClick, isOpen, toggleSidebar, user, onLogoutClick, onVideoCall }, ref) => {
   const handleOptionClick = (callback) => {
     callback();
     toggleSidebar();
@@ -57,7 +57,18 @@ export const Sidebar = forwardRef(({ onDashboardClick, onClassroomClick, onBlogs
           <button onClick={() => handleOptionClick(onQuizClick)} className="w-full text-left text-white dark:text-gray-300 font-semibold hover:bg-indigo-600 dark:hover:bg-indigo-500 rounded-lg p-2 transition-colors flex items-center">
             <img src={logout} className="w-6 h-6 mr-3" alt="Quiz" />
             Quiz
-          </button>
+          </button><button
+  onClick={() =>
+    window.open(
+      "https://4025041e13b6ca4f2578.vercel.app/dd5991bc-9d82-4a77-9f89-9b8a86c13a11",
+      "_blank"
+    )
+  }
+  className="w-full text-left text-white dark:text-gray-300 font-semibold hover:bg-indigo-600 dark:hover:bg-indigo-500 rounded-lg p-2 transition-colors flex items-center"
+>
+  Video Call
+</button>
+
           <button onClick={() => handleOptionClick(onLogoutClick)} className="w-full text-left text-white dark:text-gray-300 font-semibold hover:bg-red-600 dark:hover:bg-red-500 rounded-lg p-2 transition-colors flex items-center">
             <img src={info} className="w-6 h-6 mr-3" alt="Sign Out" />
             Sign Out

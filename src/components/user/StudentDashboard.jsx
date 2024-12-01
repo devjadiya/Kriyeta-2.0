@@ -32,7 +32,7 @@ function StudentDashboard() {
   const [selectedSection, setSelectedSection] = useState('dashboard');
   const [isFirstVisit, setIsFirstVisit] = useState(false);
 
-  const sections = ['dashboard', 'classroom', 'blogs', 'quiz']; // Define available sections
+  const sections = ['dashboard', 'classroom', 'blogs', 'quiz','video call']; // Define available sections
   const sidebarRef = useRef(null);
 
   const fetchBlogs = async () => {
@@ -197,6 +197,7 @@ function StudentDashboard() {
           onClassroomClick={() => setSelectedSection('classroom')}
           onBlogsClick={() => setSelectedSection('blogs')}
           onQuizClick={() => setSelectedSection('quiz')}
+          onVideoCall={() => setSelectedSection('video call')}
           toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)}
           isOpen={isSidebarOpen}
           user={user}

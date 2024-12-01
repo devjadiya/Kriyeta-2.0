@@ -79,9 +79,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Notes generation",
+  "Summary enhancement",
+  "Easy Integration",
 ];
 
 export const brainwaveServicesIcons = [
@@ -129,21 +129,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "The ideal solution for educators, trainers, and learners seeking smarter ways to reinforce knowledge from videos or text-based materials.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Automatic Question Generation",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Seamless Integration",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Conceptual Understanding",
   },
 ];
 
@@ -245,16 +245,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Personalized Learning",
+    text: "Our platform integrates personalized learning experiences tailored to individual users' needs.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Community-Driven Chat Rooms and Discussion Forums",
+    text: "Engage with peers and instructors in chat rooms and discussion forums, fostering collaborative learning environments.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -262,16 +262,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Interactive Video Calling",
+    text: " Seamlessly connect with instructors and peers through interactive video calling for real-time discussions and collaboration.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Embedded Compiler Utility",
+    text: "Empowers users to write, compile, and test code seamlessly within the community, enhancing comprehension and practice opportunities.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -279,16 +279,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Real-Time Assessments",
+    text: " Receive real-time assessments during lectures, providing immediate feedback and promoting active learning.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Synchronized Note-Taking",
+    text: "Take synchronized notes during video lectures to enhance retention and comprehension of key concepts.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
