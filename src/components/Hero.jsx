@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Comprehensive solution for enhancing learning experiences{` `}
             <span className="inline-block relative">
-             {" "}
+              {" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,11 +36,11 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of Learning within Gurukul. Upgrade your productivity
-            with Interactive Hub, the education hub.
+            Unleash the power of Learning within Samkaran. Upgrade your
+            productivity with Interactive Hub, the education hub.
           </p>
           <Button href="/blogs" white>
-           Start Learning
+            Start Learning
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">

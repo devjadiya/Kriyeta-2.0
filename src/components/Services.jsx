@@ -16,8 +16,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Gurukul Learning."
-          text="Gurukul unlocks the potential of AI-powered Learning"
+          title="Samkaran Learning."
+          text="Samkaran unlocks the potential of AI-powered Learning"
         />
 
         <div className="relative">
@@ -35,7 +35,7 @@ const Services = () => {
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">AI is generating.</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Gurukul unlocks the potential of AI-powered learning.
+                Samkaran unlocks the potential of AI-powered learning.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -68,7 +68,8 @@ const Services = () => {
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-4">Transcript Generation</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Take AI generated notes and scripts for learning, within seconds.
+                  Take AI generated notes and scripts for learning, within
+                  seconds.
                 </p>
               </div>
 
